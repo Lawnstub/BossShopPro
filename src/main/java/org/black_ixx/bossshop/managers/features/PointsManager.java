@@ -67,10 +67,6 @@ public class PointsManager {
                 this.pa = new BSPointsPluginMySQLTokens();
                 break;
 
-            case VOTINGPLUGIN:
-                this.pa = new BSPointsPluginVotingPlugin();
-                break;
-
             case KINGDOMS:
                 this.pa = new BSPointsPluginKingdoms();
                 break;
